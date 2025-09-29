@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 3429935666081996075}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.875, y: -0.9965, z: 0}
+  m_LocalPosition: {x: 0.7, y: -0.7975, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -129,7 +129,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.2, y: 0.65}
-    oldSize: {x: 1.5625, y: 1.0625}
+    oldSize: {x: 1.25, y: 0.85}
     newSize: {x: 1.5625, y: 0.6875}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -137,12 +137,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 1.2510386, y: -0.5028402}
-      - {x: 1.1876949, y: -0.25357485}
-      - {x: -0.06254502, y: 0.37198398}
-      - {x: -0.3130186, y: 0.18384546}
-      - {x: -0.25193, y: -0.2546811}
-      - {x: 1.188471, y: -0.5676018}
+    - - {x: 1, y: -0.4025}
+      - {x: 0.95, y: -0.2025}
+      - {x: -0.05, y: 0.2975}
+      - {x: -0.25, y: 0.1475}
+      - {x: -0.25, y: -0.2025}
+      - {x: 0.95, y: -0.4525}
   m_UseDelaunayMesh: 0
 --- !u!50 &4370984565334965928
 Rigidbody2D:
@@ -156,7 +156,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 100
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 1
@@ -187,7 +187,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.7, y: -0.7972}
+  m_ConnectedAnchor: {x: 0.7, y: -0.7975}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -239,7 +239,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2098057590789997881}
@@ -338,7 +338,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.875, y: 2.5}
+    oldSize: {x: 1.5, y: 2}
     newSize: {x: 3.0625, y: 2.8125}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -346,11 +346,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.6243646, y: 1.2}
-      - {x: -0.77972096, y: 1.28}
-      - {x: -0.9375, y: 1.2}
-      - {x: -0.9375, y: -0.50155246}
-      - {x: 0.5886459, y: -1.2641889}
-      - {x: 0.8126927, y: -0.62465036}
-      - {x: -0.6243646, y: 0.094749376}
+    - - {x: -0.5, y: 0.95}
+      - {x: -0.625, y: 1}
+      - {x: -0.75, y: 0.95}
+      - {x: -0.75, y: -0.4}
+      - {x: 0.45, y: -1}
+      - {x: 0.83, y: -0.59}
+      - {x: -0.5, y: 0.075}
   m_UseDelaunayMesh: 0
