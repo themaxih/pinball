@@ -12,6 +12,7 @@ public class Ball : MonoBehaviour
 
     void Death()
     {
+        // Placeholder
         transform.position = new Vector3(1.25f, 4, 0);
     }
 }

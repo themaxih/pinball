@@ -9,7 +9,7 @@ public enum EFlipperType
 public class Flipper : MonoBehaviour
 {
     private Rigidbody2D rb;
-    private float torque = 156;
+    private float torque = 15600;
 
     public KeyCode key;
     public EFlipperType type;
@@ -27,6 +27,7 @@ public class Flipper : MonoBehaviour
 
     void Update()
     {
+        // Lorsque la touche est maintenue, on ajoute du couple au rigidbody pour le faire rotationner. Sinon on en retire
         if (Input.GetKey(key))
         {
             rb.AddTorque(torque);
