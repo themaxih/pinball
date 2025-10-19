@@ -157,17 +157,27 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 16
+        width: 19
+        height: 37
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
-      tessellationDetail: -1
+      physicsShape:
+      - - {x: 9.5, y: -12.5}
+        - {x: 9.5, y: -11.5}
+        - {x: -3.5, y: 16.5}
+        - {x: -4.5, y: 17.5}
+        - {x: -6.5, y: 18.5}
+        - {x: -9.5, y: 15.5}
+        - {x: -9.5, y: -6.5}
+        - {x: -7.5, y: -8.5}
+        - {x: 4.5, y: -14.5}
+        - {x: 7.5, y: -14.5}
+      tessellationDetail: 0
       bones: []
-      spriteID: 4ddf9b5839bf771a0800000000000000
+      spriteID: 4fdc87fd7285aa647b14ef21a6520da5
       internalID: -6811699300352262700
       vertices: []
       indices: 
@@ -177,19 +187,29 @@ TextureImporter:
       name: bumper2Tileset_1
       rect:
         serializedVersion: 2
-        x: 16
+        x: 19
         y: 0
-        width: 16
-        height: 16
+        width: 19
+        height: 37
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 9.5, y: -12.5}
+        - {x: 9.5, y: -11.5}
+        - {x: -3.5, y: 16.5}
+        - {x: -4.5, y: 17.5}
+        - {x: -6.5, y: 18.5}
+        - {x: -9.5, y: 15.5}
+        - {x: -9.5, y: -6.5}
+        - {x: -7.5, y: -8.5}
+        - {x: 4.5, y: -14.5}
+        - {x: 7.5, y: -14.5}
       tessellationDetail: 0
       bones: []
-      spriteID: ab54240f2b9b4464f979d601bc64b7f8
+      spriteID: 8bc643d4055d5b346922f8c8ba93a9e9
       internalID: -1604462696
       vertices: []
       indices: 
@@ -209,7 +229,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":19.0,"y":37.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       bumper2Tileset_0: -6811699300352262700
       bumper2Tileset_1: -1604462696

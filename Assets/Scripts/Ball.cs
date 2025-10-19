@@ -13,6 +13,6 @@ public class Ball : MonoBehaviour
     void Death()
     {
         // Placeholder
-        transform.position = new Vector3(1.25f, 4, 0);
+        transform.position = new Vector3(Random.Range(-0.25f, 0.25f), 5.85f, 0);
     }
 }
