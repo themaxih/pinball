@@ -9,7 +9,7 @@ public enum EFlipperType
 public class Flipper : MonoBehaviour
 {
     private Rigidbody2D rb;
-    private float torque = 17600;
+    private float torque = 15600;
 
     public KeyCode key;
     public EFlipperType type;

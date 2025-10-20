@@ -157,24 +157,25 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 19
-        height: 37
+        width: 17
+        height: 35
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape:
-      - - {x: 9.5, y: -12.5}
-        - {x: 9.5, y: -11.5}
-        - {x: -3.5, y: 16.5}
-        - {x: -4.5, y: 17.5}
-        - {x: -6.5, y: 18.5}
-        - {x: -9.5, y: 15.5}
-        - {x: -9.5, y: -6.5}
-        - {x: -7.5, y: -8.5}
-        - {x: 4.5, y: -14.5}
-        - {x: 7.5, y: -14.5}
+      - - {x: 8.5, y: -12.5}
+        - {x: 7.5, y: -9.5}
+        - {x: -4.5, y: 16.5}
+        - {x: -5.5, y: 17.5}
+        - {x: -6.5, y: 16.5}
+        - {x: -7.5, y: 14.5}
+        - {x: -8.5, y: 12.5}
+        - {x: -8.5, y: -6.5}
+        - {x: -6.5, y: -8.5}
+        - {x: 3.5, y: -13.5}
+        - {x: 6.5, y: -13.5}
       tessellationDetail: 0
       bones: []
       spriteID: 4fdc87fd7285aa647b14ef21a6520da5
@@ -187,26 +188,26 @@ TextureImporter:
       name: bumper2Tileset_1
       rect:
         serializedVersion: 2
-        x: 19
+        x: 17
         y: 0
-        width: 19
-        height: 37
+        width: 17
+        height: 35
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape:
-      - - {x: 9.5, y: -12.5}
-        - {x: 9.5, y: -11.5}
-        - {x: -3.5, y: 16.5}
-        - {x: -4.5, y: 17.5}
-        - {x: -6.5, y: 18.5}
-        - {x: -9.5, y: 15.5}
-        - {x: -9.5, y: -6.5}
-        - {x: -7.5, y: -8.5}
-        - {x: 4.5, y: -14.5}
-        - {x: 7.5, y: -14.5}
+      - - {x: 8.5, y: -12.5}
+        - {x: 7.5, y: -9.5}
+        - {x: -4.5, y: 16.5}
+        - {x: -5.5, y: 17.5}
+        - {x: -6.5, y: 16.5}
+        - {x: -8.5, y: 12.5}
+        - {x: -8.5, y: -6.5}
+        - {x: -6.5, y: -8.5}
+        - {x: 3.5, y: -13.5}
+        - {x: 6.5, y: -13.5}
       tessellationDetail: 0
       bones: []
       spriteID: 8bc643d4055d5b346922f8c8ba93a9e9
@@ -229,7 +230,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":19.0,"y":37.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":17.0,"y":35.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       bumper2Tileset_0: -6811699300352262700
       bumper2Tileset_1: -1604462696
