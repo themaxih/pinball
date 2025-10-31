@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8319809322712859633}
   - component: {fileID: 3715176608095124734}
   - component: {fileID: 747712873387825023}
+  - component: {fileID: 6989331157698225995}
   m_Layer: 0
   m_Name: Bumper
   m_TagString: Bumper
@@ -186,3 +187,25 @@ PointEffector2D:
   m_ForceMode: 0
   m_LinearDamping: 0
   m_AngularDamping: 0
+--- !u!95 &6989331157698225995
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4717678537595310698}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5ff49257b6aaa9848a212fb2c3e8211c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

@@ -2,5 +2,9 @@ using UnityEngine;
 
 public enum EScores
 {
-    Bumper = 100
+    Bumper = 250,
+    StarPanel = 300,
+    TrianglePanel = 200,
+    CirclePanel = 150,
+    WallPanel = 100
 }

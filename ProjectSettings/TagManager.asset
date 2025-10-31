@@ -6,6 +6,12 @@ TagManager:
   tags:
   - DeathZone
   - Bumper
+  - GameManager
+  - StarPanel
+  - CirclePanel
+  - TrianglePanel
+  - WallPanel
+  - Ball
   layers:
   - Default
   - TransparentFX
