@@ -12,6 +12,7 @@ TagManager:
   - TrianglePanel
   - WallPanel
   - Ball
+  - Launcher
   layers:
   - Default
   - TransparentFX

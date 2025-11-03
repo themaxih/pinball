@@ -15,8 +15,6 @@ public class Ball : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         gameManager = FindFirstObjectByType<GameManager>();
-
-        isBallLaunched = false;
     }
 
     private void Update()
@@ -33,6 +31,8 @@ public class Ball : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        isBallLaunched = !collision.CompareTag("Launcher");
+
         if (collision.CompareTag("DeathZone"))
         {
             Death();
@@ -81,7 +81,6 @@ public class Ball : MonoBehaviour
         {
             // Placeholder
             transform.position = new Vector3(4.025f, -6, 0);
-            isBallLaunched = false;
             gameManager.ballLeft--;
         }
         else
