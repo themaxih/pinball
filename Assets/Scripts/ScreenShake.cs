@@ -16,7 +16,6 @@ public class ScreenShake
         shakeDuration = duration;
 
         // On a besoin d’un MonoBehaviour pour lancer une coroutine
-        // On crée un GameObject temporaire invisible si nécessaire
         if (camera != null)
         {
             coroutineRunner = camera.GetComponent<MonoBehaviour>();
@@ -53,6 +52,6 @@ public class ScreenShake
     }
 }
 
-// Petit helper pour pouvoir exécuter des coroutines depuis une classe non-MonoBehaviour.
+// Permet d'exécuter des coroutines depuis une classe non-MonoBehaviour.
 public class ScreenShakeRunner : MonoBehaviour { }
 
