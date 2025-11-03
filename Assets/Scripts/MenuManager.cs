@@ -3,10 +3,10 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
-    private void Start()
+    private void Awake()
     {
-        Screen.SetResolution(619, 900, false);
-        Camera.main.aspect = 619f / 900f;
+        Screen.SetResolution(565, 900, false);
+        Camera.main.aspect = 565f / 900f;
     }
 
     private void Update()
