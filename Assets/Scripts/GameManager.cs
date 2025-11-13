@@ -67,7 +67,6 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         gameOverMenu.SetActive(true);
-        mainCamera.backgroundColor = new Color32(15, 15, 15, 255);
     }
 
     public void PlayAgain()
