@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -19,28 +20,25 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        // Limiter les FPS à 60
+        Application.targetFrameRate = 60;
+
+        #region Score
         // Charger le meilleur score sauvegardé
         bestScore = PlayerPrefs.GetInt("BestScore", 0);
 
         score = 0;
         ballLeft = 2;   // Le joueur démarre avec 3 balls (il lui en reste donc 2 après celle actuelle)
+        #endregion
 
         gameOverMenu.SetActive(false);
-
-        mainCamera.backgroundColor = new Color32(132, 132, 132, 255);
-
-        // Limiter les FPS à 60
-        Application.targetFrameRate = 60;
     }
 
     void Update()
     {
         UpdateUI();
 
-        if (Input.GetKeyDown(KeyCode.Space) && gameOverMenu.activeSelf)
-        {
-            PlayAgain();
-        }
+        if (Input.GetKeyDown(KeyCode.Space) && gameOverMenu.activeSelf) PlayAgain();
     }
 
     // Ajoute un certain montant au score et vérifie si on bat le record.
@@ -48,10 +46,11 @@ public class GameManager : MonoBehaviour
     {
         score += amount;
 
+        // Mise à jour du meilleur score
         if (score > bestScore)
         {
             bestScore = score;
-            PlayerPrefs.SetInt("BestScore", bestScore);  // Sauvegarde persistante
+            PlayerPrefs.SetInt("BestScore", bestScore);
             PlayerPrefs.Save();
         }
     }
@@ -67,17 +66,16 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         gameOverMenu.SetActive(true);
-        mainCamera.backgroundColor = new Color32(132, 132, 132, 5);
+    }
+
+    public void LoadMainMenu()
+    {
+        SceneManager.LoadScene(0);  // 0 correspond à l'index du main menu
     }
 
     public void PlayAgain()
     {
-        SceneManager.LoadScene(1);
-    }
-
-    public void MainMenu()
-    {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);  // 1 correspond à l'index de la scène de jeu
     }
 }
 
