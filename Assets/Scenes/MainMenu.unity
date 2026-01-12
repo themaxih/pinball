@@ -1672,8 +1672,8 @@ RectTransform:
   m_Children:
   - {fileID: 452575343}
   - {fileID: 790238872}
-  - {fileID: 419174004}
   - {fileID: 592826339}
+  - {fileID: 419174004}
   - {fileID: 586022844}
   - {fileID: 1953744505}
   - {fileID: 697764066}
